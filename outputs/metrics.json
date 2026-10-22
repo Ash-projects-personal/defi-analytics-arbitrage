@@ -1,0 +1,102 @@
+{
+  "repo": "defi-analytics-arbitrage",
+  "data_snapshot": {
+    "tvl_rows_in_window": 2917,
+    "latest_date": "2026-10-22",
+    "fetched_at_unix": 1792694702,
+    "protocols": [
+      "Aave V3",
+      "Balancer",
+      "Compound",
+      "Convex",
+      "Curve",
+      "Lido",
+      "MakerDAO",
+      "Uniswap V3"
+    ]
+  },
+  "protocol_summaries": {
+    "Aave V3": {
+      "latest_tvl_usd": 16869096184.0,
+      "change_30d_pct": -10.508693639434942,
+      "change_90d_pct": 22.943226000415294,
+      "daily_return_volatility_pct": 2.8134265866360058,
+      "max_drawdown_pct": -70.98586466883185,
+      "days": 366
+    },
+    "Balancer": {
+      "latest_tvl_usd": 17928861.0,
+      "change_30d_pct": -39.66162458658604,
+      "change_90d_pct": -37.642429409128134,
+      "daily_return_volatility_pct": 4.873103348006767,
+      "max_drawdown_pct": -96.24217893103614,
+      "days": 366
+    },
+    "Compound": {
+      "latest_tvl_usd": 1500546051.0,
+      "change_30d_pct": -10.000185476098011,
+      "change_90d_pct": 21.405781678852076,
+      "daily_return_volatility_pct": 2.368753654187721,
+      "max_drawdown_pct": -60.69641407313642,
+      "days": 366
+    },
+    "Convex": {
+      "latest_tvl_usd": 582190115.0,
+      "change_30d_pct": -5.88584618993111,
+      "change_90d_pct": 18.117718616171064,
+      "daily_return_volatility_pct": 19.069959627253862,
+      "max_drawdown_pct": -81.20246804519898,
+      "days": 366
+    },
+    "Curve": {
+      "latest_tvl_usd": 1282509246.1008902,
+      "change_30d_pct": -10.461763736540385,
+      "change_90d_pct": 0.49595477659545306,
+      "daily_return_volatility_pct": 1.4117401683161197,
+      "max_drawdown_pct": -50.28984883298888,
+      "days": 366
+    },
+    "Lido": {
+      "latest_tvl_usd": 23003803735.0,
+      "change_30d_pct": -15.182810102774447,
+      "change_90d_pct": 32.05575823684026,
+      "daily_return_volatility_pct": 3.2387094097850913,
+      "max_drawdown_pct": -61.193606587188,
+      "days": 366
+    },
+    "MakerDAO": {
+      "latest_tvl_usd": 5618478335.0,
+      "change_30d_pct": -0.9781937472065794,
+      "change_90d_pct": -6.317958435941939,
+      "daily_return_volatility_pct": 3.2971222295687768,
+      "max_drawdown_pct": -32.99312823391581,
+      "days": 366
+    },
+    "Uniswap V3": {
+      "latest_tvl_usd": 1685316380.0,
+      "change_30d_pct": 1.645863278478732,
+      "change_90d_pct": 13.091294734802062,
+      "daily_return_volatility_pct": 3.303701937050285,
+      "max_drawdown_pct": -51.75712836659627,
+      "days": 366
+    }
+  },
+  "apy_spread_scan": {
+    "highest_project": "convex-finance",
+    "highest_median_apy_pct": 5.28416,
+    "lowest_project": "compound-v3",
+    "lowest_median_apy_pct": 0.0,
+    "spread_percentage_points": 5.28416,
+    "pools_considered": 522,
+    "min_pool_tvl_usd": 1000000,
+    "widest_same_symbol_gap": {
+      "symbol": "USDC",
+      "highest_project": "aave-v3",
+      "highest_median_apy_pct": 3.66146,
+      "lowest_project": "compound-v3",
+      "lowest_median_apy_pct": 3.216,
+      "gap_percentage_points": 0.44545999999999975
+    }
+  },
+  "note": "TVL and APY figures are computed from the DefiLlama snapshots in data/. An APY spread across lending pools is a rate difference, not an executable arbitrage. No wallet clustering is included; no real wallet dataset was available."
+}

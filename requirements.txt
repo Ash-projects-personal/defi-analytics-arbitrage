@@ -1,1 +1,4 @@
-pandas\nnumpy\nmatplotlib\nscikit-learn
+pandas>=2
+numpy>=1.26
+matplotlib>=3.8
+pytest>=8
